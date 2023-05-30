@@ -3,12 +3,10 @@
 
 ![Screenshot](WorkFlow.jpg)
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+
+# TODO List
+- [x] Implement Siamese Net 
+- [x] Implement Data Loader and Contrastive Loss
+- [x] Train Siamese Net on ICDAR dataset
+- [ ] Implement Feature Extractor from Image Embeddings
+- [ ] Train a SVM to Classify for Signature Verification
