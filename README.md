@@ -13,11 +13,11 @@ The aim of this project is to develop a robust signature verification system tha
 
 ***Data Collection and Preprocessing***
 
--Collect a dataset of signature images from different individuals.
+    -Collect a dataset of signature images from different individuals.
 
--Preprocess the dataset by removing noise, resizing images, and normalizing intensities.
+    -Preprocess the dataset by removing noise, resizing images, and normalizing intensities.
 
--Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
+    -Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
 
 
 
