@@ -13,47 +13,47 @@ The aim of this project is to develop a robust signature verification system tha
 
 ***Data Collection and Preprocessing***
 
-    -Collect a dataset of signature images from different individuals.
+-Collect a dataset of signature images from different individuals.
 
-    -Preprocess the dataset by removing noise, resizing images, and normalizing intensities.
+-Preprocess the dataset by removing noise, resizing images, and normalizing intensities.
 
-    -Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
+-Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
 
 
 
 ***Siamese Convolutional Neural Network***
 
-    -Design a Siamese CNN architecture that takes two signature images as input.
+-Design a Siamese CNN architecture that takes two signature images as input.
 
-    -Train the CNN to learn image embeddings that capture the unique characteristics of signatures.
+-Train the CNN to learn image embeddings that capture the unique characteristics of signatures.
 
-    -Implement triplet loss as the training objective to encourage the CNN to minimize the distance between embeddings of genuine signatures and maximize the distance between embeddings of forged signatures.
+-Implement triplet loss as the training objective to encourage the CNN to minimize the distance between embeddings of genuine signatures and maximize the distance between embeddings of forged signatures.
 
 
 
 ***Feature Extraction***
 
-    -Extract image embeddings from signature pairs using the trained Siamese CNN.
+-Extract image embeddings from signature pairs using the trained Siamese CNN.
 
-    -Generate a feature vector representing the similarity or dissimilarity between the signatures.
+-Generate a feature vector representing the similarity or dissimilarity between the signatures.
 
 
 
 ***Support Vector Machine Classifier***
 
-    -Train an SVM classifier using the extracted feature vectors.
+-Train an SVM classifier using the extracted feature vectors.
 
-    -Utilize a suitable kernel function (e.g., linear, radial basis function) to map the feature vectors to a higher-dimensional space.
+-Utilize a suitable kernel function (e.g., linear, radial basis function) to map the feature vectors to a higher-dimensional space.
 
-    -Optimize SVM hyperparameters through techniques such as grid search or cross-validation.
+-Optimize SVM hyperparameters through techniques such as grid search or cross-validation.
 
 
 
 ***Signature Verification***
 
-    -Given a pair of signature images, pass them through the Siamese CNN to obtain their embeddings.
+-Given a pair of signature images, pass them through the Siamese CNN to obtain their embeddings.
 
-    -Use the SVM classifier to predict whether the signatures belong to the same person or not.
+-Use the SVM classifier to predict whether the signatures belong to the same person or not.
 
 
 # TODO List
