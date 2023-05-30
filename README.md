@@ -20,6 +20,7 @@ The aim of this project is to develop a robust signature verification system tha
 -Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
 
 
+
 ***Siamese Convolutional Neural Network***
 
 -Design a Siamese CNN architecture that takes two signature images as input.
@@ -29,11 +30,13 @@ The aim of this project is to develop a robust signature verification system tha
 -Implement triplet loss as the training objective to encourage the CNN to minimize the distance between embeddings of genuine signatures and maximize the distance between embeddings of forged signatures.
 
 
+
 ***Feature Extraction***
 
 -Extract image embeddings from signature pairs using the trained Siamese CNN.
 
 -Generate a feature vector representing the similarity or dissimilarity between the signatures.
+
 
 
 ***Support Vector Machine Classifier***
@@ -43,6 +46,7 @@ The aim of this project is to develop a robust signature verification system tha
 -Utilize a suitable kernel function (e.g., linear, radial basis function) to map the feature vectors to a higher-dimensional space.
 
 -Optimize SVM hyperparameters through techniques such as grid search or cross-validation.
+
 
 
 ***Signature Verification***
