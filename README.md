@@ -19,7 +19,7 @@ The aim of this project is to develop a robust signature verification system tha
 -Divide the dataset into pairs of genuine signatures and pairs of forged signatures.
 
 ![Screenshot](assets/dataset-cover.png)
-
+*** ICDAR 2011 Dataset ***
 
 # Siamese Convolutional Neural Network
 
