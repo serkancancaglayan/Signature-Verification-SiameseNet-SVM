@@ -103,7 +103,7 @@ def main():
                 "scheduler": lr_scheduler.state_dict(),
                 "optim": optimizer.state_dict()
             }
-            checkpoint_name = 'epoch_' + str(epoch) + 'loss_' + str(round(test_loss)) + '.pt'
+            checkpoint_name = 'epoch_' + str(epoch) + 'loss_' + str(np.round(test_loss, 3)) + '.pt'
             torch.save(model_dict, os.path.join(Config.CHECKPOINT_PATH, checkpoint_name))
         
 
