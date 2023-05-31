@@ -28,6 +28,7 @@ The aim of this project is to develop a robust signature verification system tha
 
 -Implement triplet loss as the training objective to encourage the CNN to minimize the distance between embeddings of genuine signatures and maximize the distance between embeddings of forged signatures.
 
+![Screenshot](assets/history.png)
 
 
 # Feature Extraction
