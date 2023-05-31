@@ -60,4 +60,4 @@ The aim of this project is to develop a robust signature verification system tha
 - [x] Implement Data Loader and Contrastive Loss
 - [x] Train Siamese Net on ICDAR dataset
 - [ ] Implement Feature Extractor from Image Embeddings
-- [ ] Train a SVM to Signature Verification
+- [ ] Train a SVM to Verify Signatures
