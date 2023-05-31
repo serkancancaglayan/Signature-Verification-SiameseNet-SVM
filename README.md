@@ -7,7 +7,7 @@ Signature verification is an important task in various domains such as banking, 
 
 The aim of this project is to develop a robust signature verification system that can accurately determine whether two signatures belong to the same person or not. The system will utilize a combination of a Siamese Convolutional Neural Network (CNN) and a Support Vector Machine (SVM) classifier to achieve this task. By extracting image embeddings from input signature images using the CNN, followed by classification using the SVM, the system will provide a reliable means of verifying signatures.
 
-![Screenshot](WorkFlow.jpg)
+![Screenshot](assets/WorkFlow.jpg)
 
 
 # Data Collection and Preprocessing
