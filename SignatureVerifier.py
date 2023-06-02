@@ -51,5 +51,5 @@ class SignatureVerifier:
         e_dist = self.euclidean_distance(embed1, embed2)
         m_dist = self.manhattan_distance(embed1, embed2)
         c_sim = self.cosine_similarity(embed1, embed2)
-        pred = self.svm.predict(np.array[e_dist, m_dist, c_sim])
+        pred = self.svm.predict(np.array([e_dist, m_dist, c_sim]))
         return pred
