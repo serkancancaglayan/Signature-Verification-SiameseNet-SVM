@@ -46,7 +46,7 @@ The aim of this project is to develop a robust signature verification system tha
 
 -Utilize a suitable kernel function (e.g., linear, radial basis function) to map the feature vectors to a higher-dimensional space.
 
--Optimize SVM hyperparameters through techniques such as grid search or cross-validation.
+![Screenshot](assets/SVM.png)
 
 
 
