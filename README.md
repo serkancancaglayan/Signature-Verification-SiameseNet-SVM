@@ -55,11 +55,3 @@ The aim of this project is to develop a robust signature verification system tha
 -Given a pair of signature images, pass them through the Siamese CNN to obtain their embeddings.
 
 -Use the SVM classifier to predict whether the signatures belong to the same person or not.
-
-
-# TODO List
-- [x] Implement Siamese Net 
-- [x] Implement Data Loader and Contrastive Loss
-- [x] Train Siamese Net on ICDAR dataset
-- [ ] Implement Feature Extractor from Image Embeddings
-- [ ] Train a SVM to Verify Signatures
